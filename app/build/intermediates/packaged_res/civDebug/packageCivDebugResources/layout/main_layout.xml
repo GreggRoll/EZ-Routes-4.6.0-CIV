@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/isp_panel_bg"
+    android:fadeScrollbars="false"
+    android:padding="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="6dp"
+            android:text="@string/app_name"
+            android:textColor="@color/heading_yellow"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="6"
+            android:useDefaultMargins="true">
+
+            <LinearLayout
+                android:id="@+id/ispPoliceStation"
+                style="@style/ISPRoutesTile"
+                android:contentDescription="@string/marker_police_station">
+
+                <ImageView
+                    style="@style/ISPRoutesTileIcon"
+                    android:src="@drawable/ic_isp_police" />
+
+                <TextView
+                    style="@style/ISPRoutesTileLabel"
+                    android:text="@string/marker_police_station" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ispHospital"
+                style="@style/ISPRoutesTile"
+                android:contentDescription="@string/marker_hospital">
+
+                <ImageView
+                    style="@style/ISPRoutesTileIcon"
+                    android:src="@drawable/ic_isp_hospital" />
+
+                <TextView
+                    style="@style/ISPRoutesTileLabel"
+                    android:text="@string/marker_hospital" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ispGasStation"
+                style="@style/ISPRoutesTile"
+                android:contentDescription="@string/marker_gas_station">
+
+                <ImageView
+                    style="@style/ISPRoutesTileIcon"
+                    android:src="@drawable/ic_isp_gas" />
+
+                <TextView
+                    style="@style/ISPRoutesTileLabel"
+                    android:text="@string/marker_gas_station" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ispSchool"
+                style="@style/ISPRoutesTile"
+                android:contentDescription="@string/marker_school">
+
+                <ImageView
+                    style="@style/ISPRoutesTileIcon"
+                    android:src="@drawable/ic_isp_school" />
+
+                <TextView
+                    style="@style/ISPRoutesTileLabel"
+                    android:text="@string/marker_school" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ispLoi"
+                style="@style/ISPRoutesTile"
+                android:contentDescription="@string/marker_loi">
+
+                <ImageView
+                    style="@style/ISPRoutesTileIcon"
+                    android:src="@drawable/ic_isp_loi" />
+
+                <TextView
+                    style="@style/ISPRoutesTileLabel"
+                    android:text="@string/marker_loi" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ispCnpLeft"
+                style="@style/ISPRoutesTile"
+                android:contentDescription="@string/marker_cnp_left">
+
+                <ImageView
+                    style="@style/ISPRoutesTileIcon"
+                    android:src="@drawable/ic_isp_left_turn" />
+
+                <TextView
+                    style="@style/ISPRoutesTileLabel"
+                    android:text="@string/marker_cnp_left" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ispCnpRight"
+                style="@style/ISPRoutesTile"
+                android:contentDescription="@string/marker_cnp_right">
+
+                <ImageView
+                    style="@style/ISPRoutesTileIcon"
+                    android:src="@drawable/ic_isp_right_turn" />
+
+                <TextView
+                    style="@style/ISPRoutesTileLabel"
+                    android:text="@string/marker_cnp_right" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ispCnpOther"
+                style="@style/ISPRoutesTile"
+                android:contentDescription="@string/marker_cnp_other">
+
+                <ImageView
+                    style="@style/ISPRoutesTileIcon"
+                    android:src="@drawable/ic_isp_other" />
+
+                <TextView
+                    style="@style/ISPRoutesTileLabel"
+                    android:text="@string/marker_cnp_other" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ispRestricted"
+                style="@style/ISPRoutesTile"
+                android:contentDescription="@string/marker_restricted">
+
+                <ImageView
+                    style="@style/ISPRoutesTileIcon"
+                    android:src="@drawable/ic_isp_restricted" />
+
+                <TextView
+                    style="@style/ISPRoutesTileLabel"
+                    android:text="@string/marker_restricted" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ispCheckPoint"
+                style="@style/ISPRoutesTile"
+                android:contentDescription="@string/marker_check_point">
+
+                <ImageView
+                    style="@style/ISPRoutesTileIcon"
+                    android:src="@drawable/ic_isp_checkpoint" />
+
+                <TextView
+                    style="@style/ISPRoutesTileLabel"
+                    android:text="@string/marker_check_point" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ispTunnel"
+                style="@style/ISPRoutesTile"
+                android:contentDescription="@string/marker_tunnel">
+
+                <ImageView
+                    style="@style/ISPRoutesTileIcon"
+                    android:src="@drawable/ic_isp_tunnel" />
+
+                <TextView
+                    style="@style/ISPRoutesTileLabel"
+                    android:text="@string/marker_tunnel" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ispOverpass"
+                style="@style/ISPRoutesTile"
+                android:contentDescription="@string/marker_overpass">
+
+                <ImageView
+                    style="@style/ISPRoutesTileIcon"
+                    android:src="@drawable/ic_isp_overpass" />
+
+                <TextView
+                    style="@style/ISPRoutesTileLabel"
+                    android:text="@string/marker_overpass" />
+            </LinearLayout>
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>

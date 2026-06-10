@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">ISP Routes</string>
+    <!-- description -->
+    <string name="app_desc">Drag ISP route development markers onto the ATAK map.</string>
+    <string name="marker_police_station">Police Station</string>
+    <string name="marker_hospital">Hospital</string>
+    <string name="marker_gas_station">Gas Station</string>
+    <string name="marker_school">School</string>
+    <string name="marker_loi">LOI</string>
+    <string name="marker_cnp_left">CNP - Left Turn</string>
+    <string name="marker_cnp_right">CNP - Right Turn</string>
+    <string name="marker_cnp_other">CNP - Other</string>
+    <string name="marker_restricted">Restricted</string>
+    <string name="marker_check_point">Check Point</string>
+    <string name="marker_tunnel">Tunnel</string>
+    <string name="marker_overpass">Overpass</string>
+</resources>

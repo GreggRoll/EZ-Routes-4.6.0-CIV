@@ -1,0 +1,58 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.atakmap.android.isproutes.plugin"
+4    android:versionCode="1"
+5    android:versionName="0.1 () - [5.5.0]" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <application
+11-->C:\Users\adams\Code\ATAK\ATAK-MIL-5.5.0.7-SDK\plugins\ISP Routes\app\src\main\AndroidManifest.xml:5:5-27:19
+12        android:allowBackup="false"
+12-->C:\Users\adams\Code\ATAK\ATAK-MIL-5.5.0.7-SDK\plugins\ISP Routes\app\src\main\AndroidManifest.xml:6:9-36
+13        android:debuggable="true"
+14        android:description="@string/app_desc"
+14-->C:\Users\adams\Code\ATAK\ATAK-MIL-5.5.0.7-SDK\plugins\ISP Routes\app\src\main\AndroidManifest.xml:9:9-47
+15        android:extractNativeLibs="true"
+16        android:icon="@drawable/ic_launcher"
+16-->C:\Users\adams\Code\ATAK\ATAK-MIL-5.5.0.7-SDK\plugins\ISP Routes\app\src\main\AndroidManifest.xml:7:9-45
+17        android:label="@string/app_name"
+17-->C:\Users\adams\Code\ATAK\ATAK-MIL-5.5.0.7-SDK\plugins\ISP Routes\app\src\main\AndroidManifest.xml:8:9-41
+18        android:theme="@style/AppTheme" >
+18-->C:\Users\adams\Code\ATAK\ATAK-MIL-5.5.0.7-SDK\plugins\ISP Routes\app\src\main\AndroidManifest.xml:10:9-40
+19        <meta-data
+20            android:name="plugin-api"
+20-->C:\Users\adams\Code\ATAK\ATAK-MIL-5.5.0.7-SDK\plugins\ISP Routes\app\src\main\AndroidManifest.xml:11:20-45
+21            android:value="com.atakmap.app@5.5.0.CIV" />
+21-->C:\Users\adams\Code\ATAK\ATAK-MIL-5.5.0.7-SDK\plugins\ISP Routes\app\src\main\AndroidManifest.xml:11:46-79
+22        <meta-data
+22-->C:\Users\adams\Code\ATAK\ATAK-MIL-5.5.0.7-SDK\plugins\ISP Routes\app\src\main\AndroidManifest.xml:12:9-78
+23            android:name="app_desc"
+23-->C:\Users\adams\Code\ATAK\ATAK-MIL-5.5.0.7-SDK\plugins\ISP Routes\app\src\main\AndroidManifest.xml:12:20-43
+24            android:value="@string/app_desc" />
+24-->C:\Users\adams\Code\ATAK\ATAK-MIL-5.5.0.7-SDK\plugins\ISP Routes\app\src\main\AndroidManifest.xml:12:44-76
+25
+26        <!--
+27            This fictitious activity entry allow for ATAK 4.6.0.2 and newer to perform 
+28            plugin discovery  android devices.  If this is removed, the plugin will 
+29            not be able to be discovered or loaded.
+30        -->
+31        <activity
+31-->C:\Users\adams\Code\ATAK\ATAK-MIL-5.5.0.7-SDK\plugins\ISP Routes\app\src\main\AndroidManifest.xml:18:8-24:19
+32            android:name="com.atakmap.app.component"
+32-->C:\Users\adams\Code\ATAK\ATAK-MIL-5.5.0.7-SDK\plugins\ISP Routes\app\src\main\AndroidManifest.xml:18:18-58
+33            android:exported="true" >
+33-->C:\Users\adams\Code\ATAK\ATAK-MIL-5.5.0.7-SDK\plugins\ISP Routes\app\src\main\AndroidManifest.xml:19:12-35
+34            <intent-filter android:label="@string/app_name" >
+34-->C:\Users\adams\Code\ATAK\ATAK-MIL-5.5.0.7-SDK\plugins\ISP Routes\app\src\main\AndroidManifest.xml:21:12-23:28
+34-->C:\Users\adams\Code\ATAK\ATAK-MIL-5.5.0.7-SDK\plugins\ISP Routes\app\src\main\AndroidManifest.xml:21:27-59
+35                <action android:name="com.atakmap.app.component" />
+35-->C:\Users\adams\Code\ATAK\ATAK-MIL-5.5.0.7-SDK\plugins\ISP Routes\app\src\main\AndroidManifest.xml:22:15-66
+35-->C:\Users\adams\Code\ATAK\ATAK-MIL-5.5.0.7-SDK\plugins\ISP Routes\app\src\main\AndroidManifest.xml:22:23-63
+36            </intent-filter>
+37        </activity>
+38    </application>
+39
+40</manifest>

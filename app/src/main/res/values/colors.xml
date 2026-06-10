@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="white">#ffffff</color>
+    <color name="darker_gray">#121212</color>
+    <color name="heading_yellow">#dfb228</color>
+    <color name="isp_panel_bg">#202326</color>
+    <color name="isp_tile_bg">#30363a</color>
+    <color name="isp_tile_pressed">#44505a</color>
+    <color name="isp_tile_stroke">#667078</color>
+
+</resources>
